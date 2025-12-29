@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "semisupervised_learning"
+  site-url: "https://HasanGoni.github.io/semisupervised_learning"
+  description: "semisupervised learning training"
+  repo-branch: main
+  repo-url: "https://github.com/HasanGoni/semisupervised_learning"
