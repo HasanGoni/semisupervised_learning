@@ -1,3 +1,23 @@
-[build-system]
-requires = ["setuptools>=64.0"]
-build-backend = "setuptools.build_meta"
+[project]
+name="semisupervised_learning"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python=">=3.12"
+dependencies = [
+    "python-dotenv>=1.0.0",
+    "fastcore>=1.9.8",
+    "ipykernel>=7.1.0",
+    "jupyter>=1.1.1",
+    "nbdev>=2.4.7",
+    "opencv-python>=4.12.0.88",
+    "torch>=2.9.1",
+    "torchvision>=0.24.1",
+    "xformers>=0.0.33.post2",
+    "datasets>=4.4.2",
+    "cv-tools",
+]
+
+[tool.uv.sources]
+cv-tools = { path = "../cv_tools", editable = true }
+#cv-tools = { git = "https://github.com/hasangoni/cv_tools.git", branch = "master" }
